@@ -5,7 +5,14 @@
   "repository": "git@github.com:TheMightyPenguin/jekyll-npm-App.git",
   "author": "Victor Tortolero <victormtortolero@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "watch": "webpack"
+  },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6"
+    "bootstrap": "4.0.0-alpha.6",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "webpack": "^2.5.1"
   }
 }
